@@ -226,4 +226,32 @@ section div figure figcaption {
   color: white;
 }
 
+@media screen and (max-width: 650px) {
+  header nav div {
+    display: block;
+  }
+  header nav ul {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  header nav ul li {
+    display: block;
+    padding: 1em;
+  }
+
+  form {
+    display: block;
+  }
+
+  section div {
+    display: block;
+    width: 100%;
+  }
+
+  .footer {
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -207,3 +207,33 @@ section {
   }
 }
 
+@include mobile {
+  header {
+    nav {
+      div {
+        display: block;
+      }
+      ul {
+        display: block;
+        text-align: center;
+        width: 100%;
+        li {
+          display: block;
+          padding: 1em;
+        }
+      }
+    }
+  }
+  form {
+    display: block;
+  }
+  section {
+    div {
+      display: block;
+      width: 100%;
+    }
+  }
+  .footer {
+      display: block;
+  }
+}
