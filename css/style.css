@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Luxurious Roman", cursive;
+}
+
+header {
+  position: relative;
+  background: url(../slike/background.jpeg);
+  background-size: cover;
+  height: 40rem;
+}
+header div {
+  position: relative;
+  text-align: left;
+  top: 10%;
+  left: 5%;
+}
+header div img {
+  vertical-align: middle;
+  width: 4rem;
+  height: 4rem;
+}
+header div h1 {
+  margin-left: 3%;
+  vertical-align: bottom;
+  display: inline-block;
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+}
+header nav {
+  background-color: #0e1538;
+  height: 5rem;
+}
+header nav ul {
+  display: inline-block;
+  margin-left: 40%;
+  list-style-type: none;
+}
+header nav ul li {
+  vertical-align: middle;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  display: inline-block;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+header nav ul li:last-child {
+  position: absolute;
+  text-align: right;
+  top: 9%;
+  right: 5%;
+}
+header nav ul li:last-child button {
+  background-color: white;
+  color: #7079f7;
+  font-weight: 900;
+  padding: 0.6rem 0.5rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+header form {
+  margin-top: 8%;
+  display: inline-block;
+  margin-left: 18%;
+  width: 70%;
+  height: fit-content;
+  background-color: white;
+  text-align: left;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+header form div {
+  display: inline-block;
+  padding-top: 15px;
+  justify-content: center;
+  text-align: center;
+}
+header form div label {
+  vertical-align: top;
+  margin-left: 2rem;
+  padding: 10px;
+  text-align: right;
+  color: #0e1538;
+  font-size: 1.2rem;
+}
+header form div input {
+  margin-bottom: 10px;
+  height: 80px;
+  width: 250px;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+header form button {
+  margin-left: 4rem;
+  text-align: center;
+  font-size: 1.3rem;
+  width: 5%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #fb5b5b;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,106 @@
+@import "vars";
+@import "mixins";
+
+@include main;
+
+header {
+  position: relative;
+  background: url(../slike/background.jpeg);
+  background-size: cover;
+  height: 40rem;
+  div {
+    position: relative;
+    text-align: left;
+    top: 10%;
+    left: 5%;
+    img {
+      vertical-align: middle;
+      width: 4rem;
+      height: 4rem;
+    }
+    h1 {
+      margin-left: 3%;
+      vertical-align: bottom;
+      display: inline-block;
+      color: white;
+      font-size: 45px;
+      font-weight: 900;
+    }
+  }
+  nav {
+    background-color: $darkBlue;
+    height: 5rem;
+    ul {
+      display: inline-block;
+      margin-left: 40%;
+      list-style-type: none;
+      li {
+        vertical-align: middle;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        display: inline-block;
+        a {
+          text-decoration: none;
+          font-weight: bold;
+          color: white;
+        }
+      }
+      li:last-child {
+        position: absolute;
+        text-align: right;
+        top: 9%;
+        right: 5%;
+        button {
+          background-color: white;
+          color: $blue;
+          font-weight: 900;
+          padding: 0.6rem 0.5rem;
+          @include border-radius;
+        }
+      }
+    }
+  }
+  form {
+    margin-top: 8%;
+    display: inline-block;
+    margin-left: 18%;
+    width: 70%;
+    height: fit-content;
+    background-color: white;
+    text-align: left;
+    @include border-radius;
+    div {
+      display: inline-block;
+      padding-top: 15px;
+      justify-content: center;
+      text-align: center;
+      label {
+        vertical-align: top;
+        margin-left: 2rem;
+        padding: 10px;
+        text-align: right;
+        color: $darkBlue;
+        font-size: 1.2rem;
+      }
+      input {
+        margin-bottom: 10px;
+        height: 80px;
+        width: 250px;
+        @include border-radius;
+      }
+    }
+    button {
+      margin-left: 4rem;
+      text-align: center;
+      font-size: 1.3rem;
+      width: 5%;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      background-color: $red;
+      color: white;
+    }
+  }
+}
